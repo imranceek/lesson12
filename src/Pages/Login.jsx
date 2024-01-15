@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import { setUserData } from "../Redux/Features/features";
+import { setUserData } from "../Redux/Features/Features";
 import { useDispatch, useSelector } from "react-redux";
 
 function Login() {
