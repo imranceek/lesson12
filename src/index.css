@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media screen and (max-width: 1060px) {
+  .product {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+  .logo {
+    display: none;
+  }
+  .home-content {
+    text-align: center;
+    align-items: center;
+  }
+  .home-title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .forma {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .top {
+    justify-content: center;
+  }
+}
