@@ -46,6 +46,10 @@ function App() {
           path: "/checkout",
           element: <Checkout />,
         },
+        {
+          index: true,
+          element: <Login />,
+        },
 
       ],
     },
@@ -54,10 +58,7 @@ function App() {
       path: "/register",
       element: <Register />,
     },
-    {
-      index: true,
-      element: <Login />,
-    },
+   
   ]);
   return (
     <div>
