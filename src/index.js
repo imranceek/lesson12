@@ -9,3 +9,4 @@ export {default as About } from "./Pages/About";
 export {default as Login } from "./Pages/Login";
 export {default as Register } from "./Pages/Register";
 export {default as Checkout } from "./Pages/Checkout";
+export {default as Cart} from "./Pages/Cart"

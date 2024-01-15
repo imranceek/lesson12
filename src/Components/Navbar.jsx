@@ -68,6 +68,9 @@ function Navbar() {
               <NavLink to={"/products"}  className="p-2 rounded-md">
                 Products
               </NavLink>
+              <NavLink to={"/cart"}  className="p-2 rounded-md">
+                Cart
+              </NavLink>
              
               <NavLink to={"/checkout"} className="p-2 rounded-md" >
                 Checkout

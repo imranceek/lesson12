@@ -11,6 +11,7 @@ import {
   Product,
   Products,
   Register,
+  Cart,
 } from "./index";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
@@ -36,6 +37,10 @@ function App() {
         {
           path: "/product/:id",
           element: <Product />,
+        },
+        {
+          path: "/cart",
+          element: <Cart/>
         },
         {
           path: "/checkout",
