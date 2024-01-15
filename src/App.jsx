@@ -22,7 +22,7 @@ function App() {
       errorElement: <Error />,
       children: [
         {
-          index: true,
+          path : "/",
           element: <Home />,
         },
         {
@@ -55,7 +55,7 @@ function App() {
       element: <Register />,
     },
     {
-      path: "/login",
+      index: true,
       element: <Login />,
     },
   ]);
