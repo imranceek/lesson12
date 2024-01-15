@@ -89,8 +89,8 @@ function Navbar() {
                 <FaMoon style={{ fontSize: "23px" }} />
               )}
             </button>
-            <Link class="btn btn-ghost btn-circle btn-md ml-4" to="/checkout">
-              <div class="indicator">
+            <Link className="btn btn-ghost btn-circle btn-md ml-4" to="/checkout">
+              <div className="indicator">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
