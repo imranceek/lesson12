@@ -22,7 +22,7 @@ function App() {
       errorElement: <Error />,
       children: [
         {
-          path : "/",
+          index: true,
           element: <Home />,
         },
         {
@@ -46,10 +46,6 @@ function App() {
           path: "/checkout",
           element: <Checkout />,
         },
-        {
-          index: true,
-          element: <Login />,
-        },
 
       ],
     },
@@ -58,7 +54,10 @@ function App() {
       path: "/register",
       element: <Register />,
     },
-   
+    {
+      path: "/login",
+      element: <Login />,
+    },
   ]);
   return (
     <div>
