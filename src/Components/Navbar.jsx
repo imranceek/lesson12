@@ -30,7 +30,7 @@ function Navbar() {
         {!userData && (
           <div className="max-w-6xl px-5 py-2 mx-auto flex gap-5 justify-end top">
             <Link to={"/login"} className="link link-hover text-xc sm:text-sm">
-              Sign in / Guest
+              Sign in
             </Link>
             <Link
               to={"/register"}
